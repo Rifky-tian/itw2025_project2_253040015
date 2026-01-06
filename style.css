@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+nav.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: green;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+margin-right: 10px;
+margin-left: 10px;
+color: black;
+font-family: "Plus Jakarta Sans", sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-right: -35px;
+    border: 2px solid rgb(51, 231, 72);
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(51, 231, 72);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+#home {
+    background: url(./img/wpp.webp) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+#home h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:  rgb(51, 231, 72);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(51, 231, 72);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.2s;
+}
+
+.cards:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgb(255, 132, 0);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.2s;
+}
+
+#apps{
+    background: url(./img/photo-1660467796738-1db8627ca958.avif) no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    background-position: center 50%;
+    
+}
+
+#apps h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+footer {
+  background-color: #222831;
+  color: #fff;
+  text-align: center;
+}
+
+footer > .wrapper {
+  padding: 10px 0px 10px 0px;
+ 
+}
+
